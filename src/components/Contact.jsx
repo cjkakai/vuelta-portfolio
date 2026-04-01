@@ -15,24 +15,28 @@ const Contact = () => (
       <div className="w-1/2 h-full flex flex-col justify-center px-10 py-12 border-l border-gray-300">
         <h2 className="text-2xl font-bold text-black mb-6">Contact Us</h2>
 
-        <form className="flex flex-col gap-4">
+        <form action="mailto:cjkakai5@gmail.com" method="get" encType="text/plain" className="flex flex-col gap-4">
           <input
             type="text"
+            name="name"
             placeholder="Your Name"
             className="border border-gray-300 rounded-xl px-4 py-3 text-sm text-black placeholder-gray-400 outline-none focus:border-black transition-colors bg-transparent"
           />
           <input
             type="email"
+            name="email"
             placeholder="Your Email"
             className="border border-gray-300 rounded-xl px-4 py-3 text-sm text-black placeholder-gray-400 outline-none focus:border-black transition-colors bg-transparent"
           />
           <input
             type="text"
+            name="subject"
             placeholder="Subject"
             className="border border-gray-300 rounded-xl px-4 py-3 text-sm text-black placeholder-gray-400 outline-none focus:border-black transition-colors bg-transparent"
           />
           <textarea
             rows={5}
+            name="body"
             placeholder="Your Message"
             className="border border-gray-300 rounded-xl px-4 py-3 text-sm text-black placeholder-gray-400 outline-none focus:border-black transition-colors resize-none bg-transparent"
           />
