@@ -7,10 +7,10 @@ const Footer = () => (
     <div className="absolute inset-0 bg-black/50" />
 
     {/* Content */}
-    <div className="relative z-10 max-w-[1140px] mx-auto px-6 pt-16 pb-10">
+    <div className="relative z-10 h-full max-w-[1140px] mx-auto px-6 flex flex-col justify-between py-16">
 
       {/* 4-Column Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 flex-1 content-center mb-10">
 
         {/* Column 1 – Services */}
         <div>
@@ -79,7 +79,7 @@ const Footer = () => (
       </div>
 
       {/* Divider */}
-      <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-500">
+      <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-500 mt-auto">
         <p>© {new Date().getFullYear()} VUELTA TECH. All Rights Reserved.</p>
         <div className="flex gap-4">
           <a href="#" className="hover:text-gray-300 transition-colors">Privacy Policy</a>
