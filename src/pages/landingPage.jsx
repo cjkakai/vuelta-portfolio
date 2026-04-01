@@ -4,8 +4,9 @@ const LandingPage = () => {
 
       {/* Navigation */}
       <nav className="flex flex-wrap items-center justify-between max-w-[1140px] mx-auto px-6 py-8 gap-4">
-        <div className="text-2xl font-bold text-black tracking-tight">
-          VUELTA TECH
+        <div className="flex items-center gap-2 text-2xl font-bold text-black tracking-tight">
+          <img src="/logo.svg" alt="Vuelta Tech Logo" className="w-15 h-15" />
+          <span>VUELTA TECH</span>
         </div>
 
         <div className="hidden md:flex gap-8 text-[16px] text-[#101010]">
