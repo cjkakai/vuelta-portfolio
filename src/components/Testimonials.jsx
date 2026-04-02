@@ -14,13 +14,15 @@ const Testimonials = () => (
         }
       `}</style>
 
-      {/* Sliding track — 6 items (3 real + 3 clones for seamless loop) */}
+      {/* Sliding track — alternating test1/test2, doubled for seamless loop */}
       <div className="slide-track gap-6 items-center h-full">
-        {[...Array(6)].map((_, i) => (
-          <div key={i} className="flex-shrink-0 w-[360px] h-[320px] rounded-2xl overflow-hidden">
-            <img src="/test1.svg" alt="Testimonial" className="w-full h-full object-contain" />
-          </div>
-        ))}
+        {[...Array(2)].flatMap((_, set) =>
+          ['/test1.svg', '/test2.svg', '/test4.svg', '/test3.svg'].map((src, i) => (
+            <div key={`${set}-${i}`} className="flex-shrink-0 w-[360px] h-[320px] rounded-2xl overflow-hidden">
+              <img src={src} alt="Testimonial" className="w-full h-full object-contain" />
+            </div>
+          ))
+        )}
       </div>
 
     </div>
