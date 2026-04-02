@@ -86,7 +86,7 @@ const LandingPage = () => {
           />
         </div>
 
-      </main>
+        </main>
 
       <Services />
       <Projects />

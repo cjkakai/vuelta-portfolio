@@ -30,7 +30,7 @@ const Services = () => {
     stage === 'enter' ? 'none' : 'transform 2s cubic-bezier(0.4,0,0.2,1), opacity 0.55s ease'
 
   return (
-    <section id="services" className="bg-[#0C0A25] h-screen w-full flex items-center overflow-hidden">
+    <section id="services" className="bg-black h-screen w-full flex items-center overflow-hidden">
       <div className="w-full max-w-[1140px] mx-auto px-6 flex flex-col md:flex-row items-center gap-10 h-full py-16">
 
         {/* Left – Text */}

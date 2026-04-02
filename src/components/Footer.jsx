@@ -1,11 +1,11 @@
 const Footer = () => (
   <footer
     className="relative h-screen w-full bg-cover bg-center bg-no-repeat text-white"
-    style={{ backgroundImage: "url('/footer.svg')" }}
+    // style={{ backgroundImage: "url('/footer.svg')" }}
   >
     {/* Dark overlay for text contrast */}
     <div className="absolute inset-0 bg-black/50" />
-
+    <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover" src="/hero.mp4" />
     {/* Content */}
     <div className="relative z-10 h-full max-w-[1140px] mx-auto px-6 flex flex-col justify-between py-16">
 
