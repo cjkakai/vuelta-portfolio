@@ -3,7 +3,7 @@ const Contact = () => (
 
     {/* SVG container – 75% width, centered, rounded, no footer touch */}
     <div
-      className="relative w-full max-w-[75%] min-h-[600px] rounded-3xl overflow-hidden flex items-center "
+      className="relative w-full md:max-w-[75%] min-h-[600px] rounded-3xl overflow-hidden flex items-center "
       style={{
         backgroundImage: "url('/contact.svg')",
         backgroundSize: 'cover',
