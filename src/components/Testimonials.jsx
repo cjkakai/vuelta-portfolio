@@ -17,7 +17,7 @@ const Testimonials = () => (
       {/* Sliding track — alternating test1/test2, doubled for seamless loop */}
       <div className="slide-track gap-6 items-center h-full">
         {[...Array(2)].flatMap((_, set) =>
-          ['/test1.svg', '/test2.svg', '/test4.svg', '/test3.svg'].map((src, i) => (
+          ['/test1.webp', '/test2.svg', '/test4.svg', '/test3.svg'].map((src, i) => (
             <div key={`${set}-${i}`} className="flex-shrink-0 w-[360px] h-[320px] rounded-2xl overflow-hidden">
               <img src={src} alt="Testimonial" className="w-full h-full object-contain" />
             </div>

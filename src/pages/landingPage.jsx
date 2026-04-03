@@ -70,17 +70,17 @@ const LandingPage = () => {
         {/* Images */}
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-8">
           <img
-            src="/img1coding.jpg"
+            src="/img1coding.webp"
             alt="Development showcase"
             className="w-full md:w-[240px] h-[220px] object-cover rounded-[20px]"
           />
           <img
-            src="/img2coding.jpg"
+            src="/img2coding.webp"
             alt="Project example"
             className="w-full md:w-[360px] h-[220px] object-cover rounded-[20px]"
           />
           <img
-            src="/img3coding.jpg"
+            src="/img3coding.webp"
             alt="Team collaboration"
             className="w-full md:w-[220px] h-[220px] object-cover rounded-[20px]"
           />

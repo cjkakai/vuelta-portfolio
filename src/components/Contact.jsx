@@ -4,7 +4,7 @@ const Contact = () => (
     {/* SVG container – 75% width, centered, rounded, no footer touch */}
     <div
       className="relative w-full md:max-w-[75%] min-h-[600px] rounded-3xl overflow-hidden flex items-center"
-      style={{ backgroundImage: 'url(/footer.svg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      style={{ backgroundImage: 'url(/footer.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       {/* Form sits on the left white space of the SVG */}
       <div className="w-full flex flex-col items-center justify-center px-10 py-12">
         <h2 className="text-2xl text-[#41FF9E] font-bold mb-6 text-center">Contact Us</h2>
